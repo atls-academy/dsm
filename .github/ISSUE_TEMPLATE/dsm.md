@@ -1,9 +1,9 @@
 ---
 name: Daily Stand Up Meeting
 about: Это шаблон стэндапа на каждый день
-title: "[daily stand up] ДД Месяц ГГГГ"
+title: "[DSM] ДД Месяц ГГГГ"
 labels: 'Type: Stand Up'
-assignees: AlexR0v, Gochicus
+assignees: Gochicus
 ---
 
 ## Шаблон 
