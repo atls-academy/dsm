@@ -3,6 +3,7 @@ on:
   schedule:
     # every day at 4:00 UTC (7:00 MSK)
     - cron:  '0 4 * * *'
+  workflow_dispatch:
 
 jobs:
   comment:
@@ -55,4 +56,3 @@ jobs:
               labels: ['Type: DSM'],
               body: body.slice(13,-3)
             })
-            
