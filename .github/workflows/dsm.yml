@@ -2,14 +2,14 @@ name: DSM
 on:
   schedule:
     # every day at 4:00 UTC (7:00 MSK)
-    - cron:  '0 4 * * MON-FRI'
+    - cron:  '0 4 * * *'
   workflow_dispatch:
 
 jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Read template
         id: template
         uses: juliangruber/read-file-action@v1
